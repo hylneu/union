@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 ## train
 
-For image training:```python main.py --task='image' --image_name='image0.png' --run_name='image_0'image```<br>
+For image training:```python main.py --task='image' --image_name='image0.png' --run_name='image_0'```<br>
 For video training: ```python main.py --task='video' --image_name='balloons' --run_name='balloons_video_model_0'```
 
 ## datasets
