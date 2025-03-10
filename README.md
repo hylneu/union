@@ -13,3 +13,9 @@ For video training: ```python main.py --task='video' --image_name='balloons' --r
 
 ## datasets
 The image dataset has been uploaded. The video dataset comes from HP-VAE-GAN, SinGAN-GIF and VGPNN.
+
+## Implementation Notes  
+This project extends the following open-source works:  
+- **Sinddm** [[Code]](https://github.com/fallenshock/SinDDM.git): Adopted for the backbone diffusion model architecture.  
+- **Sindiffusion** [[Code]](https://github.com/WeilunWang/SinDiffusion.git): Utilized for training pipeline design.  
+- **NNFdiversity** [[Code]](https://github.com/nivha/nnf_diversity.git): Adapted the NNF metric implementation.  
